@@ -8,11 +8,5 @@
 - I didn't share any api of Garena even its public. Do not use this repo for illegal stuffs. Don't be illegal.
 - Be safe.
 
-## ✍️ Usage 
-**Windows:**
-`python.exe main.py`<br><br>
-**Linux**
-`./main.py`
-
 ## ⚠️ DISCLAIMER 
 **This github repo is for EDUCATIONAL PURPOSES ONLY. I am NOT under any responsibility if a problem occurs.**
