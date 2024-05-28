@@ -960,10 +960,10 @@ CryptoJS.pad.NoPadding = {
     pad: function() {},
     unpad: function() {}
 };
-let password = "";
+let PWD = "";
 let VV1 = "";
 let VV2 = "";
 
-var passwordMd5 = CryptoJS.MD5(PASS);
+var passwordMd5 = CryptoJS.MD5(PWD);
 var passwordKey = CryptoJS.SHA256(CryptoJS.SHA256(passwordMd5 + VV1) + VV2);
 var encryptedPassword = CryptoJS.AES.encrypt(passwordMd5, passwordKey, { mode: CryptoJS.mode.ECB, padding: CryptoJS.pad.NoPadding });
